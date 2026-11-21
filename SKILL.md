@@ -65,6 +65,15 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - Approve a still/storyboard or short test before generating expensive sequences.
 - Screen recordings and screenshot-led walkthroughs can be animated with purposeful focus/outline changes; do not imply interactions that were not captured.
 
+### Rough-assembly approval and transition audit
+- An approved clip or story concept does **not** authorize its neighboring or intervening shots. Before assembly, reconcile every source interval against the approval log; explicitly flag **approved**, **rejected**, **pending**, and **unreviewed** footage. Never slip rejected material into a new assembly.
+- Audit each join using the last frames of shot A and first frames of shot B, plus normal-speed playback. Record the exact outgoing/incoming timecodes, camera direction and speed, framing, light, color, subject scale, visual geography, and sound continuity.
+- When a cut feels rough, first look for a **better cut point or match-on-action** in the originals. Do not blanket-apply cross-dissolves, speed ramps, zooms or AI transitions to hide incompatible shots.
+- Check the film's **story progression after every join**. Jumping from a consultation back to undirected paperwork may feel like narrative regression even if technically clean.
+- Preserve the subject and purpose of a shot: a distinctive launch/acceleration should connect to footage with coherent motion direction and apparent velocity; a fast city approach followed by a static or backward-moving view can feel discontinuous.
+- At a visual-assembly review, deliver a timestamped **transition audit** listing each seam's KEEP / RETIME / REPLACE recommendation and exact source in/out candidates. Before a complete new render, provide short transition A/B previews for the problem seams.
+- Never call a complete visual assembly “approved” when the founder approved only one component (for example, a centered boardroom interval or falcon transition). Treat remaining joins and questionable source clips as pending until reviewed.
+
 ### Gate 3 — Scene-by-scene edit
 - Preserve approved segments exactly; adjust only the specified intervals. Avoid rebuilding an entire scene for one local issue.
 - Use an editable composition where possible (HyperFrames or equivalent); retain source map and render recipe.
