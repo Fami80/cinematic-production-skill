@@ -127,6 +127,24 @@ If working with GitHub, append factual milestone updates to the relevant existin
 
 Never call an artifact `FINAL APPROVED` based solely on technical QA or on a previous version's approval.
 
+## Continuous skill improvement (standing founder authorization)
+The founder authorizes incremental updates to this shared skill when a **verified, reusable production lesson** is identified during active collaboration. Do not wait for separate permission for ordinary quality improvements to the skill itself.
+
+- Add only principles that apply across projects, not a client's confidential facts, raw assets, names, private paths, or temporary creative preferences.
+- First verify the lesson against actual reviews, errors, approvals, or QA findings. Distinguish confirmed rules from hypotheses; do not promote guesses to mandatory practice.
+- Prefer one targeted, additive change over rewriting existing instructions. Avoid duplicating or contradicting the skill; check current content before editing.
+- Use a concise, descriptive commit message and verify the updated GitHub file. Briefly tell the founder what changed and why.
+- New skill guidance **never retroactively authorizes production edits**, changes to locked footage, publishing, or client delivery. Existing project-specific approval gates still apply.
+- If a proposed skill revision would materially weaken safeguards, authorize external action, expose confidential material, or conflict with a prior directive, request specific approval.
+- Updates occur only while the agent is actively handling a task and has the required access; do not imply unattended background monitoring.
+
+### Evidence-first storyboard lesson
+- Inspect the **actual frame at each locked-to-editable boundary** before designing the continuation; project files and exports may represent different versions.
+- If existing approved footage has exhausted useful report/data shots, **do not recycle them by default** merely to fill a duration. Consider an editorial page, purposeful motion graphic, different authentic shot, or a justified new generated shot.
+- Review designed-page concepts as a **contact sheet alongside neighboring live footage**, not as isolated mockups. Check whether they feel cinematic in context or like disconnected slides.
+- Distinguish **visual-direction approval**, **motion-prototype approval**, **scene approval**, and **full-release approval**. Each applies only to the artifact and scope actually reviewed.
+- A full-resolution logo or identity asset missing from the verified source is a **release blocker**, not a reason to invent a substitute. A clearly labeled placeholder is acceptable only in an explicitly nonfinal prototype.
+
 ## Agent response template
 **Observed:** What was directly inspected, with file/version and timecode.
 
