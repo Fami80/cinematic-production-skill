@@ -60,6 +60,13 @@ Design an ad as a narrative, not a montage. Define:
 
 Do not render a complete film while the storyboard is pending founder approval. A storyboard approval is not approval of final animation.
 
+### Brand-asset provenance and archival
+- Verify the **actual artwork**, not merely its filename. A historical, client-internal filename can be misleading; record explicit founder/brand-owner confirmation before accepting or rejecting logo identity.
+- Distinguish a committed image binary from a JSON manifest, asset-storage pointer, favicon, thumbnail, or screenshot. A reference alone is not a usable original logo file.
+- Archive founder-confirmed original SVG/PNG artwork in a discoverable dedicated brand-assets folder when authorized. Keep originals byte-for-byte unchanged; produce transparent-background, recolored, or video-optimized derivatives separately and label their approval status.
+- Prefer scalable vector artwork for large-screen branding. Before compositing, inspect transparency, white background rectangles, color profiles, and contrast against the actual moving end-frame, not a generic swatch.
+- Document origin, filename, rights/approval evidence, intended usage, and any still-missing binary. Never claim both formats were uploaded if only one was verified.
+
 ### Gate 2 — Asset choice and generation
 Prioritize authentic supplied footage. Use generated video (for example, Google Flow) only to fill a specific story gap. If new footage is justified:
 - First define an opening frame, closing frame, action, camera, duration, lighting, subject consistency, and transition to neighboring shots.
