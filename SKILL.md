@@ -35,6 +35,9 @@ Prioritize authentic brand materials and approved founder decisions. A repo for 
 - For assets whose availability is disputed, locate and verify them before declaring them missing.
 - Identify exact locked intervals and current editable project. Verify any claimed source-to-output relationship.
 - Produce a short inventory and a **KEEP / REPLACE / CREATE / UNKNOWN** map. List known blockers and ambiguities.
+- Identify the exact *reviewed artifact*: filename, path, SHA-256, duration, render version, and relevant timestamps. GitHub descriptions, screenshots, or an editable project can disagree with the actual exported MP4.
+- Maintain a shot-level approval ledger with **source file, source in/out, output in/out, approval state, approval evidence, and any restrictions**. Asset approval does not imply every excerpt or variation is approved.
+- Preflight every proposed output segment against that ledger. **Rejected assets and intervals must fail the build**, even when they remain in an old timeline, cache, or referenced project. Unknown or pending shots can appear only in clearly labeled exploratory previews, never as silently approved material.
 - Ask one focused question only if a genuinely required decision remains unresolved.
 
 ### Choose the visual grammar for the actual business goal
@@ -72,6 +75,10 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - Check the film's **story progression after every join**. Jumping from a consultation back to undirected paperwork may feel like narrative regression even if technically clean.
 - Preserve the subject and purpose of a shot: a distinctive launch/acceleration should connect to footage with coherent motion direction and apparent velocity; a fast city approach followed by a static or backward-moving view can feel discontinuous.
 - At a visual-assembly review, deliver a timestamped **transition audit** listing each seam's KEEP / RETIME / REPLACE recommendation and exact source in/out candidates. Before a complete new render, provide short transition A/B previews for the problem seams.
+- For every seam, check the **last 0.5–1 second before and first 0.5–1 second after** the cut at both normal speed and frame level. Report motion vector, apparent speed, camera angle, focal scale, horizon/eyeline, subject position, light/color, action continuity, sound bridge, and narrative logic. Use tighter windows for rapid cuts.
+- Mark a seam **PASS** only when the change of place, action, camera, and pace feels intentional at normal speed; a technically clean decode is not evidence of smooth editing. Flag unreviewed seams explicitly.
+- Distinguish **hard cut, match cut, motivated dissolve, and intentionally disruptive cut**. Choose the least intrusive treatment that serves the story; a dissolve is not a default repair for mismatched geography or motion.
+- When the final frames of two approved clips cannot form a credible join, ask for a bridge shot or alternative source trim. A founder-approved clip can remain locked while its *placement and neighboring transitions* are revised under review.
 - Never call a complete visual assembly “approved” when the founder approved only one component (for example, a centered boardroom interval or falcon transition). Treat remaining joins and questionable source clips as pending until reviewed.
 
 ### Gate 3 — Scene-by-scene edit
@@ -80,7 +87,9 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - Align editorial pages and graphics to the authentic brand palette, type treatment, logo and tone. Avoid slide-like walls of text, arbitrary colors and decorative motion.
 - Highlight only real controls and states. For demos, check that screenshots depicting a sequence refer to the same event; never join unrelated notices as a fabricated lifecycle.
 - Avoid duplicated footage, frozen beginnings, looped gestures, inaccurate aspect ratios, awkward face motion, UI discontinuity, mismatched screen roles, text clipping and abrupt transitions.
-- For each scene, deliver an independent review MP4 and timing/source sheet. Do not integrate into the full master until the founder approves it.
+- For each scene, deliver an independent review MP4 and timing/source sheet. Do not integrate into the **approved final master** until the founder approves it. Exploratory full-sequence assemblies may include clearly labeled pending shots for comparison, but must never be described as approved or publishable.
+- Before rendering, produce an **assembly preflight** listing every ordered source excerpt and its approval state. After rendering, inspect whether the export actually contains those excerpts; project timelines and render manifests alone are insufficient.
+- Never overwrite the approved previous export. Keep review outputs in uniquely named folders with a traceable source map.
 
 ### Gate 4 — Narration synchronization
 - Lock the spoken script before editing its voice track. Preserve approved natural-speed voice unless the founder authorizes an alternate take.
@@ -91,7 +100,10 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - Before replacing a disputed line, make a short A/B clip and confirm the correct new take was actually inserted. Repackaging the original file is not an edit.
 
 ### Gate 5 — Sound design and mix
-- Finish/approve the narration-only master before final music placement.
+- Finish/approve the narration-only master before final music placement, except where the creative direction explicitly calls for retaining production ambience throughout visual previews.
+- Treat **source/environmental audio**, **narration**, **music**, and **sound effects** as separate tracks or intentions. “Silent review” must be defined precisely: no added narration/music is compatible with retaining useful source ambience; do not silently discard an approved falcon, metro, or location sound.
+- Audition environmental audio before describing it as wind, wingbeats, bird calls, etc. An embedded audio stream proves only that audio exists, not what it contains. Mark unlistened audio as unverified.
+- Build natural audio bridges across visual cuts: trim noise bursts, preserve ambience or introduce a motivated handoff, and use short fades where suitable. Do not let source sound overpower future narration.
 - Use separate voice/music stems where feasible. Do not amplify an already mixed master when only narration should increase.
 - Let music support the story: under dialogue, dynamically duck it; in actual speech pauses, raise it gently; build toward emotional reveals without masking words.
 - Control unusually prominent musical passages individually instead of lowering all music indiscriminately. Use cautious EQ, compression, gain automation and true-peak safety.
@@ -100,16 +112,19 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - Review at matched playback volume. Report integrated LUFS, true peak and any limitations; numbers never replace listening.
 
 ### Gate 6 — Full assembly and final QA
-Assemble only founder-approved scene files in the approved narrative order. Maintain a manifest with each file path, exact version, timecodes, hash, approval evidence, and audio treatment.
+For a **release candidate**, assemble only founder-approved scene files in the approved narrative order. An exploratory rough assembly may contain explicitly flagged pending placeholders solely for founder review. Maintain a manifest with each file path, exact version, source/output timecodes, hash, approval evidence, and audio treatment. Never promote a rough assembly into a release by relabeling it.
 
 **Mandatory technical checks**
 - Target duration, frame count, FPS, resolution, aspect ratio and codecs.
 - Full video/audio decode; unintended black frames, frozen or repeated intervals, dropped frames, clipping and silence.
 - Scene joins and subtitle/graphic readability at full resolution, including RTL Arabic if applicable.
+- Assess low-resolution generated source footage at **actual final output resolution** for softness, interpolation artifacts, edge halos, or unnatural detail. Continuous movement may conceal deficiencies but does not automatically make a shot acceptable.
+- Verify that the authentic logo asset and permitted service wording are used; placeholders, tiny favicons, and approximate logos are not release assets.
 - Loudness, true peak, voice/music balance, abrupt transitions and last-frame/last-sample behavior.
 
 **Mandatory editorial checks**
-- Watch the complete export at normal playback speed. If that is impossible, say so and report the narrower checks actually completed.
+- Watch the complete export at normal playback speed, **with audio where audio is present**. If that is impossible, say so and report the narrower checks actually completed. Contact sheets and frame sampling cannot certify transitions or sound.
+- Report quality on separate axes: **source compliance**, **story/continuity**, **visual/camera QA**, **audio QA**, and **technical integrity**. A PASS in one axis never implies the rest passed.
 - Inspect key transitions frame by frame and check exact narration-to-visual sync points.
 - Identify any weak or repeated shot, premature reveal, long hold, missing payoff, confusing interface, or claim unsupported by the source.
 - When changing one local interval, compare outside it against the approved master. Use decoded frame hashes/framemd5 and audio stream/PCM hashes when strict identity is required. A whole-file hash difference alone does not reveal which element changed.
@@ -127,7 +142,9 @@ At each gate, return only relevant deliverables:
 - `ASSET_INVENTORY.md` — asset name, origin, duration, format, rights, role, status.
 - `STORYBOARD.md` — narrative, scene-by-scene timecodes and visual descriptions.
 - `SOURCE_MAP.md` — every segment's original source and exact in/out timecodes.
-- `APPROVAL_LOG.md` — approved/rejected/pending and exact associated hash/version.
+- `APPROVAL_LOG.md` — approved/rejected/pending and exact associated hash/version; **shot-level source timecodes**.
+- `TRANSITION_AUDIT.md` — each cut's outgoing/incoming frames, motion/sound/continuity findings, verdict, and proposed fix.
+- `ASSEMBLY_PREFLIGHT.md` — ordered timeline checked against rejected/pending/approved asset ledger before export.
 - `QA_REPORT.md` — checks run, results, timestamps, limitations, blockers.
 - `RELEASE_MANIFEST.md` — authoritative final file, SHA-256, distribution status.
 - A contact sheet, editable source, and review MP4, as appropriate.
