@@ -37,6 +37,15 @@ Prioritize authentic brand materials and approved founder decisions. A repo for 
 - Produce a short inventory and a **KEEP / REPLACE / CREATE / UNKNOWN** map. List known blockers and ambiguities.
 - Ask one focused question only if a genuinely required decision remains unresolved.
 
+### Choose the visual grammar for the actual business goal
+Before committing to a mixed-media formula, determine what the film needs the audience to do:
+- **Product demonstration or instruction:** interface recordings, screenshot-led steps, annotation, editorial pages, and precise narration-to-action sync can carry the story.
+- **Consultancy, reputation, or brand advertising:** prioritize authentic moving footage, human expertise, place, emotion, and narrated meaning. Use graphics and titles sparingly; let voiceover explain services while footage keeps moving.
+- Do not apply a previous project's visual recipe blindly to a new industry, buyer, or audience. An attractive capability diagram may fit a website or long explainer but interrupt a 45–50-second cinematic advertisement.
+- Brand and tagline can appear **over live moving footage** if contrast, safe margins, legibility, and logo integrity are preserved. A blank-color end card is not mandatory.
+- When the creative premise materially changes (for example, introducing a new opening shot), revisit previously proposed *structural* locks with the founder. Never silently violate an approved interval, but don't preserve an obsolete storyboard structure merely because an earlier draft assumed it.
+- Treat percentages such as "mostly footage" as creative targets, not universal QA rules. Assess pacing, credibility, and narrative progress before adding explanation screens.
+
 ### Gate 1 — Story and storyboard, no rendering
 Design an ad as a narrative, not a montage. Define:
 - **Situation / challenge → consequence → expertise or intervention → meaningful outcome → branded conclusion.**
