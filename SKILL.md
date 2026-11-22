@@ -81,6 +81,13 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - If the output contains defects, test a conservative crop at final delivery resolution before commissioning another generation; reject salvage if it exposes artifacts, loses essential context, or visibly reduces sharpness. A passing technical decode cannot overrule these editorial failures.
 - Maintain **asset provenance** when a new generation supersedes another: verify the exact exported binary and project/version before judging it, and withdraw mistaken QA reports rather than transferring their conclusions to the new clip.
 
+### Motion-tracked document and surface graphics
+- Treat text or graphics placed onto a **moving physical surface** (paper, screen, sign, packaging) as a perspective-sensitive composite, not a simple 2D overlay. Translation and uniform scaling are insufficient when the surface tilts, narrows, rotates, bends, or changes foreshortening.
+- Before approving the shot, verify stable **four-corner planar/perspective tracking**, correct occlusion by hands or other objects, matching surface texture, lighting, motion blur, and legibility over the **entire intended interval**, especially the moment of strongest angle change.
+- Stop and mark the composite **REJECTED** if text drifts, floats, flickers, crosses the paper edge onto the table, or cannot be tracked reliably. A full-decode or black-frame PASS never establishes visual integration.
+- Do not conceal a failed track with a rough crop, flat rectangular overlay, or invented data. Test a short diagnostic A/B; if no reliable perspective track is available, use a **separately designed and approved physical detail shot** or the original clean footage instead.
+- A distinct document insert must earn its place in the narrative and visually match the neighboring live footage; require a still-first approval gate, truthful non-client-specific wording, and a join review before generating motion or adding runtime.
+
 ### Rough-assembly approval and transition audit
 - An approved clip or story concept does **not** authorize its neighboring or intervening shots. Before assembly, reconcile every source interval against the approval log; explicitly flag **approved**, **rejected**, **pending**, and **unreviewed** footage. Never slip rejected material into a new assembly.
 - Audit each join using the last frames of shot A and first frames of shot B, plus normal-speed playback. Record the exact outgoing/incoming timecodes, camera direction and speed, framing, light, color, subject scale, visual geography, and sound continuity.
