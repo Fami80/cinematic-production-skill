@@ -49,6 +49,15 @@ Before committing to a mixed-media formula, determine what the film needs the au
 - When the creative premise materially changes (for example, introducing a new opening shot), revisit previously proposed *structural* locks with the founder. Never silently violate an approved interval, but don't preserve an obsolete storyboard structure merely because an earlier draft assumed it.
 - Treat percentages such as "mostly footage" as creative targets, not universal QA rules. Assess pacing, credibility, and narrative progress before adding explanation screens.
 
+### Audience comprehension gate for service-led short films
+- Define what an unfamiliar target buyer must be able to explain after the opening, rather than judging the film only on cinematic polish. For a service-led commercial, test three questions: **What does this company do? What problem can it solve? How can it help my business?**
+- Set explicit, project-specific comprehension checkpoints. A useful brief for a ~40–50-second service advertisement is: identify the core service within the first **10–15 seconds**, communicate the relevant problem and mechanism of help by **30 seconds**, then use the remaining time for credibility, memorability, and a clear next action. Treat these timings as a brief-specific target, not a universal runtime formula.
+- Lead with verified buyer-relevant meaning. Atmospheric location or brand imagery can stay when it reinforces the message, but it must not postpone the first concrete explanation of the offer. Avoid vague lines that fit any consultancy (for example, generic promises of a sustainable future) in place of specific, substantiated services.
+- Write an **audience-comprehension map** alongside the storyboard: at each checkpoint, list the exact spoken/on-screen evidence that answers each buyer question and the footage reinforcing it. Flag any question answered only by implication or by a late end card.
+- When revising an approved cinematic master for clarity, audit and reuse existing approved shots, narration, music, logo and editable timeline first. Present a **minimal-change comparison** (KEEP / RETIME / REVOICE / REPLACE / CREATE) and the resulting timing map before rendering or modifying locked material. No general instruction to improve comprehension overrides existing founder approval gates.
+- For informal validation, show the candidate without explanation to people representative of the audience, stop at the prescribed checkpoint, and ask the three open questions. Record responses and note whether they accurately identify the offer; a small test is directional feedback, not a statistically valid comprehension percentage.
+- Score **cinematic craft** and **buyer comprehension** separately. Technical QA, beautiful imagery, or the founder's familiarity with the business do not demonstrate that a first-time viewer understands the offer.
+
 ### Gate 1 — Story and storyboard, no rendering
 Design an ad as a narrative, not a montage. Define:
 - **Situation / challenge → consequence → expertise or intervention → meaningful outcome → branded conclusion.**
