@@ -208,6 +208,13 @@ The founder authorizes incremental updates to this shared skill when a **verifie
 - Distinguish **visual-direction approval**, **motion-prototype approval**, **scene approval**, and **full-release approval**. Each applies only to the artifact and scope actually reviewed.
 - A full-resolution logo or identity asset missing from the verified source is a **release blocker**, not a reason to invent a substitute. A clearly labeled placeholder is acceptable only in an explicitly nonfinal prototype.
 
+## End-of-project closure discipline
+- When the founder asks to **finish, update the shared skill, and close**, treat these as distinct deliverables: (1) assess the actual final video, (2) record verified reusable lessons in the shared skill, and (3) report an accurate closure status. A skill commit is not a substitute for a visual/audio review.
+- Give the founder a direct, evidence-based creative verdict on the **exact exported master**: what looks and sounds strong, what remains weak, and whether it is ready for sign-off. If the export cannot be opened and played, say **visual/audio verdict not completed** and do not imply the film has been watched.
+- Verify the canonical skill's repository and file path instead of assuming it lives inside the client's project repository. Do not duplicate the shared skill into a client repository merely to close a task.
+- In the final handoff, separate **completed and verified**, **reported but unverified**, and **outstanding** work. Cite the actual skill commit only after confirming the write. Never instruct the founder to start a new chat as a replacement for an unfinished review or skill update.
+- Preserve distinctions between clean masters, captioned exports, and watermarked demonstrations; approve and deliver each only for its intended use. Keep derivative changes and checksums traceable without inferring that one export's QA covers another.
+
 ## Agent response template
 **Observed:** What was directly inspected, with file/version and timecode.
 
