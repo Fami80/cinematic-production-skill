@@ -90,6 +90,13 @@ Prioritize authentic supplied footage. Use generated video (for example, Google 
 - If the output contains defects, test a conservative crop at final delivery resolution before commissioning another generation; reject salvage if it exposes artifacts, loses essential context, or visibly reduces sharpness. A passing technical decode cannot overrule these editorial failures.
 - Maintain **asset provenance** when a new generation supersedes another: verify the exact exported binary and project/version before judging it, and withdraw mistaken QA reports rather than transferring their conclusions to the new clip.
 
+### Source-first correction for generated operational footage
+- For generated imagery depicting client operations, conduct a **still-image truth-and-credibility gate before motion generation**: inspect PPE and site-role plausibility, authentic identity marks, visible dashboard text, measurements, percentages, warning states, and implied client outcomes. Passing anatomy and full-decode checks does not establish business credibility.
+- **Do not remove every label merely to avoid fabricated results**: an empty or abstract monitor can be as implausible as an invented KPI. Prefer a believable facility-owned interface with neutral category labels and status layout, but no asserted client metrics, savings, performance improvements, or unverified system alerts. Keep screen text legible or deliberately non-prominent, not semi-readable nonsense.
+- Never synthesize or approximate a client's official logo, including on workwear; either composite the verified brand asset exactly with permission or use unbranded clothing/equipment. A consulting firm's logo does not belong on a customer's facility display without evidence.
+- If material branding/data defects originate in a generated **starting frame**, prefer correcting that source still and regenerating the shot over laborious frame-by-frame repair of defective moving footage. Inspect the entire new motion clip for text drift, gestural artifacts and interface mutations, then judge it **inside the full edit** before replacing a locked interval.
+- Maintain the approved shot as a fallback until the corrected replacement is explicitly accepted; scope any replacement to its exact timecode and verify unchanged picture/audio outside that interval.
+
 ### Motion-tracked document and surface graphics
 - Treat text or graphics placed onto a **moving physical surface** (paper, screen, sign, packaging) as a perspective-sensitive composite, not a simple 2D overlay. Translation and uniform scaling are insufficient when the surface tilts, narrows, rotates, bends, or changes foreshortening.
 - Before approving the shot, verify stable **four-corner planar/perspective tracking**, correct occlusion by hands or other objects, matching surface texture, lighting, motion blur, and legibility over the **entire intended interval**, especially the moment of strongest angle change.
@@ -181,6 +188,12 @@ For a **release candidate**, assemble only founder-approved scene files in the a
 - Identify any weak or repeated shot, premature reveal, long hold, missing payoff, confusing interface, or claim unsupported by the source.
 - When changing one local interval, compare outside it against the approved master. Use decoded frame hashes/framemd5 and audio stream/PCM hashes when strict identity is required. A whole-file hash difference alone does not reveal which element changed.
 - Report discrepancies with exact timestamps and severity; do not quietly revise approved creative material.
+
+### Final subtitles, CTA, and asset provenance
+- Treat end-card **voice, visible tagline/logo, captions, and call to action as one composition**. If the spoken brand line exactly duplicates an already readable on-screen brand/tagline, omit its redundant burned-in subtitle when approved, while preserving the narration and all earlier captions. Confirm that the CTA is genuinely present, readable long enough, and clear of captions, logo, and platform-safe margins; don't infer its presence from a storyboard.
+- Maintain distinct, explicit versions for a **clean master (no narration captions), captioned master, and sidecar subtitle file**. Keep CTA and intrinsic brand text as needed in both videos; compare frame/audio identity outside intentional subtitle differences and check each export independently.
+- Record original-generation provenance for AI music and other assets (generator, creator, source file, terms/license evidence and intended use). An unrelated track with the same title is not evidence of third-party authorship; generation provenance does **not** by itself prove exclusive copyright or every commercial-use right. Keep rights-clearance status evidence-based.
+- When revising music and effects, compare against the previous mix at **matched playback level** and measure both narration and music-only sections. An acceptable integrated LUFS can conceal a weak music bed; adjust stems and ducking rather than turning up the whole mix. Preserve and verify the locked picture, subtitles, and voice when changing only sound.
 
 ### Gate 7 — Founder sign-off and delivery
 - Deliver one clearly identified **review candidate**, contact sheet, source/timing map, editable project, QA findings, and remaining issues.
