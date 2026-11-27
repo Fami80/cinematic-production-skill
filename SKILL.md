@@ -202,6 +202,12 @@ For a **release candidate**, assemble only founder-approved scene files in the a
 - Clearly mark superseded versions. Update the production log or GitHub issue with the source file, SHA-256, approval, changes and limitations.
 - Do not upload to YouTube, share publicly or send to the client/school until separately asked. Unlisted links are shareable by anyone holding the link and are not confidential.
 
+### Platform fit and distribution handoff
+- Decide the **primary distribution platform from the intended buyer, message and viewing behavior**, not from video length alone. A polished widescreen business film may be best for a professional feed, site or presentation; don't assume every finished master should become a vertical short.
+- Separate **intrinsic video CTA** from **clickable conversion destination**: a concise on-screen action such as "Book a Consultation" can be sufficient when the actual booking link is supplied in the platform post, profile, description, landing page, or ad action. Do not add phone, email and URL overlays merely because an illustrative mockup displays them; test end-frame legibility before modifying a signed-off film.
+- For professional-feed launch, prepare platform-specific publication copy and a suitable thumbnail from verified footage, with an authoritative booking destination where available. Upload/distribute **only after explicit separate authorization**; never treat founder approval of the video or a recommended channel as permission to publish.
+- Preserve the source film and its release hashes. Treat vertical cutdowns and UGC-style shorts as **separate creative campaigns** with distinct hook, format, narration, caption-safe-area and approval decisions; reuse source footage and quality gates where useful, but don't just crop widescreen footage and call it a short. Capture new platform-specific rules in a companion skill only when grounded in actual production/testing, without duplicating this cinematic skill.
+
 ## Standard outputs
 At each gate, return only relevant deliverables:
 - `ASSET_INVENTORY.md` — asset name, origin, duration, format, rights, role, status.
